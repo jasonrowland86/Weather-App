@@ -1,0 +1,113 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background: white;
+  background-color: #FFFEA0;
+  min-height: 100vh;
+}
+#input {
+  border: 1px solid black;
+  font-size: 18px;
+  width: 175px;
+  text-align: center;
+  outline: none;
+  padding: 5px;
+
+}
+#submit {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  width: 100px;
+  outline: none;
+  padding: 5px;
+  margin-top: 5px;
+}
+#submit:hover {
+  background-color: #E82C0C;
+  cursor: pointer;
+}
+#container {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: auto;
+}
+.container {
+  text-align: center;
+  width: 350px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.data-container {
+
+}
+#error{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 150px;
+  margin-bottom: 10px;
+}
+#data {
+  height: 80%;
+  border-top: 1px solid black;
+}
+#city {
+  font-weight: 800;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 125px;
+  margin-bottom: 5px;
+}
+#mainTemp {
+font-family: 'Work Sans', sans-serif;
+text-align: center;
+font-size: 125px;
+}
+#message {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+#min {
+  font-family: 'Work Sans', sans-serif;
+  flex: 1;
+}
+#max {
+  font-family: 'Work Sans', sans-serif;
+  flex: 1;
+}
+#max-min {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 30px;
+}
+span {
+  font-size: 125px;
+}
+p {
+
+}
+h1 {
+  font-size: 50px;
+}
+@media only screen and (min-width: 768px) {
+  #container {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 350px) {
+  #mainTemp {
+  text-align: center;
+  font-size: 90px;
+  }
+  #mainTemp span {
+    font-size: 90px;
+  }
+}
