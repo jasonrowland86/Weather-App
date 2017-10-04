@@ -61,6 +61,9 @@ function getData(data){
   function appendData(){
     console.log(cityName);
 
+    document.getElementById('max-min').innerHTML = '';
+    document.getElementById('title').innerText = '';
+
     let city = document.createElement('div');
     city.id = 'city'
     city.innerText = cityName;
@@ -90,10 +93,12 @@ function getData(data){
     max.id = 'max';
     document.getElementById('max-min').append(max);
     max.innerHTML = `<p>Max</p></br><h1>${Math.round(maxTemp)}\&#176</h1>`;
+
   }
   appendData();
 
   document.getElementById('input').value = '';
+
 
 };
 

@@ -10,12 +10,17 @@
   <link rel='stylesheet' type='text/css' href='./styles/style.css'>
 </head>
 <body>
-  <div id="container" class="container">
-    <input id="input" placeholder="Enter Zip Code" autocomplete="off"></input>
-    <input id="submit" type="submit"></input>
-  </div>
-  <div id="data"></div>
-  <div id="max-min"></div>
+  <div id="container">
+    <div class="weather-input">
+      <h1 id="title">What's the weather like...</h1>
+      <input id="input" placeholder="Enter Zip Code" autocomplete="off"></input>
+      <input id="submit" type="submit"></input>
+    </div>
+    <div class="data-container">
+      <div id="data"></div>
+      <div id="max-min"></div>
+    </div>
+    </div>
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
