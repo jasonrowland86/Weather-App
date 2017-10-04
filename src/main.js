@@ -63,6 +63,7 @@ function getData(data){
 
     document.getElementById('max-min').innerHTML = '';
     document.getElementById('title').innerText = '';
+    document.getElementById('center').removeAttribute('class');
 
     let city = document.createElement('div');
     city.id = 'city'
