@@ -56,11 +56,11 @@ body {
   border-top: 1px solid black;
 }
 #city {
-  font-weight: 800;
+  font-weight: 900;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 10vh;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
 }
 #mainTemp {
 font-family: 'Work Sans', sans-serif;

@@ -65,7 +65,7 @@ function getData(data){
     document.getElementById('title').innerText = '';
     document.getElementById('center').removeAttribute('class');
 
-    let city = document.createElement('div');
+    let city = document.createElement('h1');
     city.id = 'city'
     city.innerText = cityName;
     document.getElementById('data').append(city);
